@@ -1,0 +1,141 @@
+Start logging at 20.10.2022 14:43:51
+################# System information #################
+Linux 5.10.0.19 (64-bit)
+.NET Core 
+
+################# Program information ################
+Aaru 5.3.1+a175d01f
+Running in 64-bit
+Running as superuser: No
+Command line: /usr/share/aaru/aaru.dll media dump /dev/sr0 Image.aaruf
+
+################# Device information #################
+Manufacturer: ASUS
+Model: SDRW-08D2S-U
+Firmware revision: B912
+Serial number: 3734508360 416942501267
+Removable device: True
+Device type: ATAPI
+CompactFlash device: False
+PCMCIA device: False
+USB device: True
+USB manufacturer: USB2.0 External
+USB product: Mass Storage Device
+USB serial: 60 416942501267
+USB vendor ID: 1C6Bh
+USB product ID: A223h
+FireWire device: False
+######################################################
+
+################ Dumping progress log ################
+2022-10-20T14:43:51 Output image format: Aaru Format.
+2022-10-20T14:43:51 Device not in database, please create a device report and attach it to a Github issue.
+2022-10-20T14:43:51 Device reports current profile is 0x0008
+2022-10-20T14:43:52 Reading full TOC
+2022-10-20T14:43:52 Building track map...
+2022-10-20T14:43:52 Checking if drive supports PQ subchannel reading...
+2022-10-20T14:43:52 Checking if drive supports full raw subchannel reading...
+2022-10-20T14:43:53 Full raw subchannel reading supported...
+2022-10-20T14:43:53 Drive returns subchannel in BCD...
+2022-10-20T14:43:53 Calculating pregaps, can take some time...
+2022-10-20T14:43:53 Reading ATIP
+2022-10-20T14:43:53 Reading Disc Information
+2022-10-20T14:43:53 Reading PMA
+2022-10-20T14:43:53 Reading Session Information
+2022-10-20T14:43:53 Reading CD-Text from Lead-In
+2022-10-20T14:44:00 Detecting disc type...
+2022-10-20T14:44:01 Checking mode for track 1...
+2022-10-20T14:44:01 Track 1 is MODE1
+2022-10-20T14:44:01 Reading 32 sectors at a time.
+2022-10-20T14:44:01 Device reports 55536 blocks (135952128 bytes).
+2022-10-20T14:44:01 Device can read 32 blocks at a time.
+2022-10-20T14:44:01 Device reports 2448 bytes per logical block.
+2022-10-20T14:44:01 SCSI device type: MultiMediaDevice.
+2022-10-20T14:44:01 Media identified as CDROM.
+2022-10-20T14:44:01 Creating subchannel log in Image.sub.log
+2022-10-20T14:44:01 Setting flags for track 1...
+2022-10-20T14:44:01 No audio tracks, disabling offset fix.
+2022-10-20T14:44:01 Drive reading offset not found in database.
+2022-10-20T14:44:01 Disc offset cannot be calculated.
+2022-10-20T14:44:01 Setting speed to MAX for data reading.
+2022-10-20T14:44:01 Setting index 1 for track 1 to LBA 0.
+2022-10-20T14:45:05 Dump finished in 63.9373495 seconds.
+2022-10-20T14:45:05 Average dump speed 8353.544 KiB/sec.
+2022-10-20T14:45:05 Average write speed 2785.608 KiB/sec.
+2022-10-20T14:45:05 Correctly retried sector 13 subchannel in pass 1.
+2022-10-20T14:45:05 Correctly retried sector 155 subchannel in pass 1.
+2022-10-20T14:45:05 Correctly retried sector 164 subchannel in pass 1.
+2022-10-20T14:45:05 Correctly retried sector 345 subchannel in pass 1.
+2022-10-20T14:45:06 Correctly retried sector 430 subchannel in pass 1.
+2022-10-20T14:45:06 Correctly retried sector 525 subchannel in pass 1.
+2022-10-20T14:45:06 Correctly retried sector 563 subchannel in pass 1.
+2022-10-20T14:45:07 Correctly retried sector 830 subchannel in pass 1.
+2022-10-20T14:45:08 Correctly retried sector 10631 subchannel in pass 1.
+2022-10-20T14:45:08 Correctly retried sector 11727 subchannel in pass 1.
+2022-10-20T14:45:09 Correctly retried sector 12619 subchannel in pass 1.
+2022-10-20T14:45:09 Correctly retried sector 14189 subchannel in pass 1.
+2022-10-20T14:45:10 Correctly retried sector 14499 subchannel in pass 1.
+2022-10-20T14:45:10 Correctly retried sector 21638 subchannel in pass 1.
+2022-10-20T14:45:11 Correctly retried sector 21745 subchannel in pass 1.
+2022-10-20T14:45:11 Correctly retried sector 36062 subchannel in pass 1.
+2022-10-20T14:45:12 Correctly retried sector 42872 subchannel in pass 1.
+2022-10-20T14:45:12 Correctly retried sector 43003 subchannel in pass 1.
+2022-10-20T14:45:12 Correctly retried sector 43749 subchannel in pass 1.
+2022-10-20T14:45:12 Correctly retried sector 43809 subchannel in pass 1.
+2022-10-20T14:45:13 Correctly retried sector 43988 subchannel in pass 1.
+2022-10-20T14:45:13 Correctly retried sector 45585 subchannel in pass 1.
+2022-10-20T14:45:13 Correctly retried sector 45681 subchannel in pass 1.
+2022-10-20T14:45:13 Correctly retried sector 45790 subchannel in pass 1.
+2022-10-20T14:45:14 Correctly retried sector 46428 subchannel in pass 1.
+2022-10-20T14:45:14 Correctly retried sector 48059 subchannel in pass 1.
+2022-10-20T14:45:14 Correctly retried sector 48071 subchannel in pass 1.
+2022-10-20T14:45:14 Correctly retried sector 48658 subchannel in pass 1.
+2022-10-20T14:45:14 Correctly retried sector 48683 subchannel in pass 1.
+2022-10-20T14:45:14 Correctly retried sector 48817 subchannel in pass 1.
+2022-10-20T14:45:14 Correctly retried sector 48829 subchannel in pass 1.
+2022-10-20T14:45:14 Correctly retried sector 48853 subchannel in pass 1.
+2022-10-20T14:45:15 Correctly retried sector 54860 subchannel in pass 1.
+2022-10-20T14:45:15 Correctly retried sector 55159 subchannel in pass 1.
+2022-10-20T14:45:16 Correctly retried sector 55309 subchannel in pass 1.
+2022-10-20T14:45:16 Correctly retried sector 55372 subchannel in pass 1.
+2022-10-20T14:45:16 Correctly retried sector 55459 subchannel in pass 1.
+2022-10-20T14:45:16 Correctly retried sector 55422 subchannel in pass 2.
+2022-10-20T14:45:16 Correctly retried sector 54735 subchannel in pass 2.
+2022-10-20T14:45:16 Correctly retried sector 54585 subchannel in pass 2.
+2022-10-20T14:45:16 Correctly retried sector 54498 subchannel in pass 2.
+2022-10-20T14:45:16 Correctly retried sector 54423 subchannel in pass 2.
+2022-10-20T14:45:16 Correctly retried sector 54411 subchannel in pass 2.
+2022-10-20T14:45:17 Correctly retried sector 48525 subchannel in pass 2.
+2022-10-20T14:45:17 Correctly retried sector 48524 subchannel in pass 2.
+2022-10-20T14:45:18 Correctly retried sector 43916 subchannel in pass 2.
+2022-10-20T14:45:19 Correctly retried sector 43455 subchannel in pass 2.
+2022-10-20T14:45:20 Correctly retried sector 21702 subchannel in pass 2.
+2022-10-20T14:45:21 Correctly retried sector 14447 subchannel in pass 2.
+2022-10-20T14:45:22 Correctly retried sector 14147 subchannel in pass 2.
+2022-10-20T14:45:24 Correctly retried sector 2009 subchannel in pass 2.
+2022-10-20T14:45:24 Correctly retried sector 1062 subchannel in pass 2.
+2022-10-20T14:45:26 Correctly retried sector 421 subchannel in pass 3.
+2022-10-20T14:45:29 Correctly retried sector 13683 subchannel in pass 3.
+2022-10-20T14:45:32 Correctly retried sector 42018 subchannel in pass 3.
+2022-10-20T14:45:34 Correctly retried sector 52351 subchannel in pass 3.
+2022-10-20T14:45:35 Correctly retried sector 54797 subchannel in pass 3.
+2022-10-20T14:45:35 Correctly retried sector 55072 subchannel in pass 3.
+2022-10-20T14:45:35 Correctly retried sector 51580 subchannel in pass 4.
+2022-10-20T14:45:38 Correctly retried sector 38290 subchannel in pass 4.
+2022-10-20T14:45:39 Correctly retried sector 21735 subchannel in pass 4.
+2022-10-20T14:45:40 Correctly retried sector 14044 subchannel in pass 4.
+2022-10-20T14:45:41 Correctly retried sector 12693 subchannel in pass 4.
+2022-10-20T14:45:41 Correctly retried sector 11945 subchannel in pass 4.
+2022-10-20T14:45:43 Correctly retried sector 725 subchannel in pass 4.
+2022-10-20T14:45:43 Correctly retried sector 592 subchannel in pass 4.
+2022-10-20T14:45:46 Correctly retried sector 8037 subchannel in pass 5.
+2022-10-20T14:45:47 Correctly retried sector 11594 subchannel in pass 5.
+2022-10-20T14:45:50 Correctly retried sector 43713 subchannel in pass 5.
+2022-10-20T14:45:51 Correctly retried sector 45694 subchannel in pass 5.
+2022-10-20T14:45:53 Closing output file.
+2022-10-20T14:45:55 Creating sidecar.
+2022-10-20T14:46:18 Sidecar created in 21.4160695 seconds.
+2022-10-20T14:46:18 Average checksum speed 6199.463 KiB/sec.
+2022-10-20T14:46:18 Found filesystem ISO9660 at sector 0
+######################################################
+End logging at 20.10.2022 14:46:18

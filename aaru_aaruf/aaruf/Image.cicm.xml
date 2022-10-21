@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<CICMMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OpticalDisc>
+    <Image format="Aaru" offset="0">Image.aaruf</Image>
+    <Size>109301388</Size>
+    <Sequence>
+      <MediaSequence>1</MediaSequence>
+      <TotalMedia>1</TotalMedia>
+    </Sequence>
+    <Checksums>
+      <Checksum type="adler32">099c2e4e</Checksum>
+      <Checksum type="crc16">3359</Checksum>
+      <Checksum type="crc32">cb5490bf</Checksum>
+      <Checksum type="crc64">8aab54347af62969</Checksum>
+      <Checksum type="md5">2411f4c1533e28e37418582deba34af5</Checksum>
+      <Checksum type="sha1">819b1af530d8676cd8097426caad8994759934b3</Checksum>
+      <Checksum type="sha256">d170d49dc56fad261fe01f240b688a2261944ce0874ba0b4f1433debbfc2882e</Checksum>
+      <Checksum type="sha384">8125f8ba9396d656c96a19d04b7cec5672b622558811e6da75e6d763609fe707c28baf438748b25701e78ab4e325dff9</Checksum>
+      <Checksum type="sha512">d8f13513374e453b2af18161d09386d073be985013ad2aa6a132296b65dad0d9d5aa600fc44cc52bdbe9853bb82d353631d5dc5772caf76e7d1b79a140cb6e4a</Checksum>
+      <Checksum type="spamsum">3145728:w+eQi/r55iV16tNiU9RRBkHyzlfOxAw3d:w5QIzir6TiE5x63d</Checksum>
+      <Checksum type="fletcher16">8cf0</Checksum>
+      <Checksum type="fletcher32">56366f81</Checksum>
+    </Checksums>
+    <DiscType>Compact Disc</DiscType>
+    <DiscSubType>CD-ROM</DiscSubType>
+    <Tracks>1</Tracks>
+    <Sessions>1</Sessions>
+    <Dimensions>
+      <Diameter>120</Diameter>
+      <Thickness>1.2</Thickness>
+    </Dimensions>
+    <TOC>
+      <Image>Image.aaruf</Image>
+      <Size>46</Size>
+      <Checksums>
+        <Checksum type="adler32">45820285</Checksum>
+        <Checksum type="crc16">d3de</Checksum>
+        <Checksum type="crc32">a355070a</Checksum>
+        <Checksum type="crc64">a1eec91a6b6f84fa</Checksum>
+        <Checksum type="md5">a8c7fbb6fb9bf1ff4f11e33009fd15a3</Checksum>
+        <Checksum type="sha1">7e03bcf82a1bf58d22695767e2438f7ab2ed13f8</Checksum>
+        <Checksum type="sha256">a1fb629ccbdb0ec741197396847e43a0a46037d889ff63011123270b99b47549</Checksum>
+        <Checksum type="sha384">8fd5bef9219bc4438481b240b0af19957d8b3ddbf024fc9d739803b521cf0f8d7704f279c24c5386672f0550cb6b8234</Checksum>
+        <Checksum type="sha512">a2656e4f7effbba884235ff04d6c39f07ea269bed771ab1dc2bbbfae8411434e616aaaf60b399ab164154e396660ceb5387b6cee7dfecc19b37cea96be6c035b</Checksum>
+        <Checksum type="spamsum">3:2VaOO/sObzTl//l:pOOEO5//l</Checksum>
+        <Checksum type="fletcher16">9986</Checksum>
+        <Checksum type="fletcher32">45540284</Checksum>
+      </Checksums>
+    </TOC>
+    <Track>
+      <Image format="BINARY">Image.aaruf</Image>
+      <Size>130620672</Size>
+      <Sequence>
+        <TrackNumber>1</TrackNumber>
+        <Session>1</Session>
+      </Sequence>
+      <StartSector>0</StartSector>
+      <EndSector>55535</EndSector>
+      <Indexes>
+        <Index index="0">-150</Index>
+        <Index index="1">0</Index>
+      </Indexes>
+      <Flags>
+        <Quadraphonic>false</Quadraphonic>
+        <Data>true</Data>
+        <CopyPermitted>false</CopyPermitted>
+        <PreEmphasis>false</PreEmphasis>
+      </Flags>
+      <TrackType>mode1</TrackType>
+      <BytesPerSector>2048</BytesPerSector>
+      <Checksums>
+        <Checksum type="adler32">1cc712f6</Checksum>
+        <Checksum type="crc16">efdf</Checksum>
+        <Checksum type="crc32">8f1e65e4</Checksum>
+        <Checksum type="crc64">c589fb1308dcc881</Checksum>
+        <Checksum type="md5">4940f8ec1e2ba780675c807e97eb2b33</Checksum>
+        <Checksum type="sha1">1ec923196b42a0473797efc9e018c2b3c2d591c8</Checksum>
+        <Checksum type="sha256">2cd98e45bc98d8d20c178fbaffa9bd8280b9b360b666e195b0561d3adadb4c62</Checksum>
+        <Checksum type="sha384">e85ee1315ad6326f649773b0bcc2ce5e256e19192bc081e72fc87a906119ed2d383c9412cf3cbe73d5f7f118c68d0bea</Checksum>
+        <Checksum type="sha512">159458c335438f070b5262164a902f063805b41659cb96427888435869f653cf9579fc12462477821917c06351b65ddacb541d6479adf54bd1a9c1fac8a5621e</Checksum>
+        <Checksum type="spamsum">3145728:MufcVwGym0qvuyROeH2LSnM7gIqDrtAb7:MuJm0ouyAetMWrtAb7</Checksum>
+        <Checksum type="fletcher16">9514</Checksum>
+        <Checksum type="fletcher32">c4d01301</Checksum>
+      </Checksums>
+      <SubChannel>
+        <Image format="rw_raw">Image.aaruf</Image>
+        <Size>5331456</Size>
+        <Checksums>
+          <Checksum type="adler32">c861c978</Checksum>
+          <Checksum type="crc16">193a</Checksum>
+          <Checksum type="crc32">c7d8e522</Checksum>
+          <Checksum type="crc64">4dcdf2987cda4613</Checksum>
+          <Checksum type="md5">5652edf468538d5b72a4bafa3113c6b9</Checksum>
+          <Checksum type="sha1">9d0138e70648f179c38f0f1dade661033ea6a9a3</Checksum>
+          <Checksum type="sha256">5708eabce186d4e6d1f6ab4ce0bcda939c0a2037ba52855d1e7adb9a42980cb4</Checksum>
+          <Checksum type="sha384">1e217884fe84bb53e1f1834b425ed6c46722e92321df49478ca4b921559290dda09bbff5cdabeac26e08be3a76c7445a</Checksum>
+          <Checksum type="sha512">0ae8fb467f53cf72c1ddbc4246180e163ffa3bcd2be00d372370b05a23a58afdc538c686ea771ee824c18052ceea54140c9a633220bfb2727e794cc01dce838f</Checksum>
+          <Checksum type="spamsum">3:tltlXllvllvllVllVlttttlXllvllvllvll1llvt/ttllttllXllvllvll1llvlz:T/f</Checksum>
+          <Checksum type="fletcher16">ea78</Checksum>
+          <Checksum type="fletcher32">2ac07afd</Checksum>
+        </Checksums>
+      </SubChannel>
+      <FileSystemInformation>
+        <Partition>
+          <Sequence>0</Sequence>
+          <Name>Track 1</Name>
+          <Type>CdMode1</Type>
+          <StartSector>0</StartSector>
+          <EndSector>55535</EndSector>
+          <FileSystems>
+            <FileSystem>
+              <Type>ISO9660</Type>
+              <CreationDate>2006-11-19T14:19:00Z</CreationDate>
+              <ModificationDate>2006-11-19T14:19:00Z</ModificationDate>
+              <ClusterSize>2048</ClusterSize>
+              <Clusters>55386</Clusters>
+              <Bootable>false</Bootable>
+              <VolumeName>GAME</VolumeName>
+              <Dirty>false</Dirty>
+              <SystemIdentifier />
+              <VolumeSetIdentifier />
+              <PublisherIdentifier />
+              <DataPreparerIdentifier />
+              <ApplicationIdentifier>Nero Burning ROM</ApplicationIdentifier>
+            </FileSystem>
+          </FileSystems>
+        </Partition>
+      </FileSystemInformation>
+    </Track>
+    <DumpHardwareArray>
+      <DumpHardware>
+        <Manufacturer>ASUS</Manufacturer>
+        <Model>SDRW-08D2S-U</Model>
+        <Firmware>B912</Firmware>
+        <Serial>3734508360 416942501267</Serial>
+        <Extents>
+          <Extent>
+            <Start>0</Start>
+            <End>55535</End>
+          </Extent>
+        </Extents>
+        <Software>
+          <Name>Aaru</Name>
+          <Version>5.3.1.0</Version>
+          <OperatingSystem>Linux</OperatingSystem>
+        </Software>
+      </DumpHardware>
+    </DumpHardwareArray>
+  </OpticalDisc>
+</CICMMetadata>

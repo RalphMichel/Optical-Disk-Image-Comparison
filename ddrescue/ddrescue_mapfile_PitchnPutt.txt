@@ -1,0 +1,9 @@
+# Mapfile. Created by GNU ddrescue version 1.23
+# Command line: ddrescue -v -r 5 /dev/sr0 /home/ralph/Dokumente/Modul_Disk_Imaging/FOLLOW_UP/ASUS/ddrescue/ddrescue_PitchnPutt.iso /home/ralph/Dokumente/Modul_Disk_Imaging/FOLLOW_UP/ASUS/ddrescue/ddrescue_mapfile_PitchnPutt.txt
+# Start time:   2022-10-20 15:01:20
+# Current time: 2022-10-20 15:02:28
+# Finished
+# current_pos  current_status  current_pass
+0x06C70000     +               1
+#      pos        size  status
+0x00000000  0x06C78000  +

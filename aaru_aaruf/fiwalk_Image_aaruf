@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml 
+  xmlns='http://www.forensicswiki.org/wiki/Category:Digital_Forensics_XML'
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'
+  version='1.0'>
+  <metadata>
+    <dc:type>Disk Image</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>fiwalk</program>
+    <version>4.10.1</version>
+    <build_environment>
+      <compiler>GCC 10.2</compiler>
+      <library name="afflib" version="3.7.19"/>
+      <library name="libewf" version="20140807"/>
+    </build_environment>
+    <execution_environment>
+      <command_line>fiwalk -X fiwalk_Image_aaruf Image.aaruf</command_line>
+      <start_time>2022-10-20T13:45:37Z</start_time>
+    </execution_environment>
+  </creator>
+  <source>
+    <image_filename>Image.aaruf</image_filename>
+  </source>
+<!-- TSK_Error 'Cannot determine file system type' at sector 0 offset 0 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 63 offset 32256 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 1 offset 512 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 2 offset 1024 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 3 offset 1536 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 4 offset 2048 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 5 offset 2560 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 6 offset 3072 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 7 offset 3584 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 8 offset 4096 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 9 offset 4608 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 10 offset 5120 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 11 offset 5632 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 12 offset 6144 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 13 offset 6656 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 14 offset 7168 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 15 offset 7680 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 16 offset 8192 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 17 offset 8704 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 18 offset 9216 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 19 offset 9728 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 20 offset 10240 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 21 offset 10752 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 22 offset 11264 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 23 offset 11776 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 24 offset 12288 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 25 offset 12800 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 26 offset 13312 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 27 offset 13824 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 28 offset 14336 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 29 offset 14848 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 30 offset 15360 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 31 offset 15872 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 32 offset 16384 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 33 offset 16896 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 34 offset 17408 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 35 offset 17920 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 36 offset 18432 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 37 offset 18944 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 38 offset 19456 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 39 offset 19968 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 40 offset 20480 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 41 offset 20992 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 42 offset 21504 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 43 offset 22016 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 44 offset 22528 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 45 offset 23040 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 46 offset 23552 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 47 offset 24064 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 48 offset 24576 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 49 offset 25088 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 50 offset 25600 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 51 offset 26112 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 52 offset 26624 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 53 offset 27136 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 54 offset 27648 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 55 offset 28160 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 56 offset 28672 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 57 offset 29184 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 58 offset 29696 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 59 offset 30208 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 60 offset 30720 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 61 offset 31232 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 62 offset 31744 sector_size=512 -->
+<!-- TSK Error (do_dimage) (null) -->
+<!-- Retrying with 512 byte sector size. -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 0 offset 0 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 63 offset 32256 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 1 offset 512 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 2 offset 1024 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 3 offset 1536 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 4 offset 2048 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 5 offset 2560 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 6 offset 3072 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 7 offset 3584 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 8 offset 4096 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 9 offset 4608 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 10 offset 5120 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 11 offset 5632 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 12 offset 6144 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 13 offset 6656 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 14 offset 7168 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 15 offset 7680 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 16 offset 8192 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 17 offset 8704 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 18 offset 9216 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 19 offset 9728 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 20 offset 10240 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 21 offset 10752 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 22 offset 11264 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 23 offset 11776 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 24 offset 12288 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 25 offset 12800 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 26 offset 13312 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 27 offset 13824 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 28 offset 14336 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 29 offset 14848 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 30 offset 15360 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 31 offset 15872 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 32 offset 16384 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 33 offset 16896 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 34 offset 17408 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 35 offset 17920 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 36 offset 18432 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 37 offset 18944 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 38 offset 19456 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 39 offset 19968 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 40 offset 20480 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 41 offset 20992 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 42 offset 21504 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 43 offset 22016 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 44 offset 22528 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 45 offset 23040 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 46 offset 23552 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 47 offset 24064 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 48 offset 24576 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 49 offset 25088 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 50 offset 25600 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 51 offset 26112 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 52 offset 26624 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 53 offset 27136 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 54 offset 27648 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 55 offset 28160 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 56 offset 28672 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 57 offset 29184 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 58 offset 29696 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 59 offset 30208 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 60 offset 30720 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 61 offset 31232 sector_size=512 -->
+<!-- TSK_Error 'Cannot determine file system type' at sector 62 offset 31744 sector_size=512 -->
+<!-- TSK Error (do_dimage) (null) -->
+<!-- clock: 0.006962 -->
+  <rusage>
+    <utime>0.012214</utime>
+    <stime>0.008143</stime>
+    <maxrss>16092</maxrss>
+    <minflt>1684</minflt>
+    <majflt>0</majflt>
+    <nswap>0</nswap>
+    <inblock>0</inblock>
+    <oublock>32</oublock>
+    <clocktime>0.006962</clocktime>
+<!-- stop_time: Thu Oct 20 15:45:37 2022 -->
+  </rusage>
+</dfxml>

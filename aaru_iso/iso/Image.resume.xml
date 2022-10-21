@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<DicResume xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BadBlocks />
+  <CreationDate>2022-10-20T13:35:59.1011616Z</CreationDate>
+  <LastBlock>55535</LastBlock>
+  <LastWriteDate>2022-10-20T13:37:18.8721933Z</LastWriteDate>
+  <NextBlock>55536</NextBlock>
+  <Removable>true</Removable>
+  <Tape>false</Tape>
+  <BadSubchannels />
+  <Tries>
+    <DumpTry>
+      <Manufacturer>ASUS</Manufacturer>
+      <Model>SDRW-08D2S-U</Model>
+      <Firmware>B912</Firmware>
+      <Serial>3734508360 416942501267</Serial>
+      <Extents>
+        <Extent>
+          <Start>0</Start>
+          <End>55535</End>
+        </Extent>
+      </Extents>
+      <Software>
+        <Name>Aaru</Name>
+        <Version>5.3.1.0</Version>
+        <OperatingSystem>Linux</OperatingSystem>
+      </Software>
+    </DumpTry>
+  </Tries>
+</DicResume>

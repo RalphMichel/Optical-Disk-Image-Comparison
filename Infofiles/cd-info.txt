@@ -1,0 +1,60 @@
+cd-info version 2.1.0 x86_64-pc-linux-gnu
+Copyright (c) 2003-2005, 2007-2008, 2011-2015, 2017 R. Bernstein
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+CD location   : /dev/sr0
+CD driver name: GNU/Linux
+   access mode: IOCTL
+
+Vendor                      : ASUS    
+Model                       : SDRW-08D2S-U    
+Revision                    : B912
+Hardware                                  : CD-ROM or DVD
+Can eject                                 : Yes
+Can close tray                            : Yes
+Can disable manual eject                  : Yes
+Can select juke-box disc                  : No
+
+Can set drive speed                       : No
+Can read multiple sessions (e.g. PhotoCD) : Yes
+Can hard reset device                     : Yes
+
+Reading....
+  Can read Mode 2 Form 1                  : Yes
+  Can read Mode 2 Form 2                  : Yes
+  Can read (S)VCD (i.e. Mode 2 Form 1/2)  : Yes
+  Can read C2 Errors                      : Yes
+  Can read IRSC                           : Yes
+  Can read Media Channel Number (or UPC)  : Yes
+  Can play audio                          : Yes
+  Can read CD-DA                          : Yes
+  Can read CD-R                           : Yes
+  Can read CD-RW                          : Yes
+  Can read DVD-ROM                        : Yes
+
+Writing....
+  Can write CD-RW                         : Yes
+  Can write DVD-R                         : Yes
+  Can write DVD-RAM                       : No
+  Can write DVD-RW                        : No
+  Can write DVD+RW                        : No
+__________________________________
+
+Disc mode is listed as: CD-DATA (Mode 1)
+CD-ROM Track List (1 - 1)
+  #: MSF       LSN    Type   Green? Copy?
+  1: 00:02:00  000000 data   false  no   
+170: 12:22:36  055536 leadout (124 MB raw, 108 MB formatted)
+Media Catalog Number (MCN): 
+Last CD Session LSN: 0
+__________________________________
+CD Analysis Report
+CD-ROM with ISO 9660 filesystem and joliet extension level 3
+ISO 9660: 55386 blocks, label `GAME                            '
+Application: NERO BURNING ROM
+Preparer   : 
+Publisher  : 
+System     : 
+Volume     : GAME
+Volume Set : 

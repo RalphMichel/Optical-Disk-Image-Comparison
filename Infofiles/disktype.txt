@@ -1,0 +1,11 @@
+
+--- /dev/sr0
+Block device, size 108.5 MiB (113737728 bytes)
+CD-ROM, 1 track, CDDB disk ID 0202E401
+Track 1: Data track, 108.5 MiB (113737728 bytes)
+  ISO9660 file system
+    Volume name "GAME"
+    Application "NERO BURNING ROM"
+    Data size 108.2 MiB (113430528 bytes, 55386 blocks of 2 KiB)
+    Joliet extension, volume name "GAME"
+

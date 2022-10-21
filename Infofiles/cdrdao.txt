@@ -1,0 +1,18 @@
+Cdrdao version 1.2.4 - (C) Andreas Mueller <andreas@daneb.de>
+WARNING: SCSI device is currently in use. Only read commands are supported.
+/dev/sr0: ASUS SDRW-08D2S-U	Rev: B912
+Using driver: Generic SCSI-3/MMC - Version 2.0 (options 0x0000)
+
+That data below may not reflect the real status of the inserted medium
+if a simulation run was performed before. Reload the medium in this case.
+
+
+CD-RW                : no
+Total Capacity       : n/a
+CD-R medium          : n/a
+Recording Speed      : n/a
+CD-R empty           : no
+Toc Type             : CD-DA or CD-ROM
+Sessions             : 1
+Last Track           : 1
+Appendable           : no

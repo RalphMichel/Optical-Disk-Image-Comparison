@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<CICMMetadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OpticalDisc>
+    <Image format="Raw disk image (sector by sector copy)" offset="0">Image.iso</Image>
+    <Size>113737728</Size>
+    <Sequence>
+      <MediaTitle>Image</MediaTitle>
+      <MediaSequence>1</MediaSequence>
+      <TotalMedia>1</TotalMedia>
+    </Sequence>
+    <Checksums>
+      <Checksum type="adler32">38a74537</Checksum>
+      <Checksum type="crc16">18af</Checksum>
+      <Checksum type="crc32">c6648f78</Checksum>
+      <Checksum type="crc64">0c8b451ac5f55f30</Checksum>
+      <Checksum type="md5">b8d194d3ff2d9b37f3ec363339ef6d11</Checksum>
+      <Checksum type="sha1">267488a3e06d36971a8706c5ca73bcbceed9834f</Checksum>
+      <Checksum type="sha256">68f4d5ac9a6e1b0751ecdab618a1c4bbb2d3034fd973469a5510c08e8ed79ca7</Checksum>
+      <Checksum type="sha384">8e2ab79e23f590913b31bad4be6a723e9b675932fd427afc1b8ba7f2fcc868f7b3b0bdf6b9d71382df7d668b3deea4a2</Checksum>
+      <Checksum type="sha512">f3c06fd016d5bee51687e018d41a68f4ecb98bb10b0bfbe4c9161bdac96bdac39808ebe87c3db9c7cb847c30b640c2ffcea4e2c05e03ca31926b40e6b9debcb5</Checksum>
+      <Checksum type="spamsum">1572864:FLUCgGf/rKucvpYpC0Z0htet6wYpfieqXq9XZFZBwRHUrVMrzBwA2E4f/AzVf:FLUCgi/rjMW6tNie/1LZBkHXngtf/Az</Checksum>
+      <Checksum type="fletcher16">46ac</Checksum>
+      <Checksum type="fletcher32">48fd2d7f</Checksum>
+    </Checksums>
+    <DiscType>Compact Disc</DiscType>
+    <DiscSubType>CD-ROM</DiscSubType>
+    <Tracks>1</Tracks>
+    <Sessions>1</Sessions>
+    <Dimensions>
+      <Diameter>120</Diameter>
+      <Thickness>1.2</Thickness>
+    </Dimensions>
+    <TOC>
+      <Image>Image.iso</Image>
+      <Size>46</Size>
+      <Checksums>
+        <Checksum type="adler32">45820285</Checksum>
+        <Checksum type="crc16">d3de</Checksum>
+        <Checksum type="crc32">a355070a</Checksum>
+        <Checksum type="crc64">a1eec91a6b6f84fa</Checksum>
+        <Checksum type="md5">a8c7fbb6fb9bf1ff4f11e33009fd15a3</Checksum>
+        <Checksum type="sha1">7e03bcf82a1bf58d22695767e2438f7ab2ed13f8</Checksum>
+        <Checksum type="sha256">a1fb629ccbdb0ec741197396847e43a0a46037d889ff63011123270b99b47549</Checksum>
+        <Checksum type="sha384">8fd5bef9219bc4438481b240b0af19957d8b3ddbf024fc9d739803b521cf0f8d7704f279c24c5386672f0550cb6b8234</Checksum>
+        <Checksum type="sha512">a2656e4f7effbba884235ff04d6c39f07ea269bed771ab1dc2bbbfae8411434e616aaaf60b399ab164154e396660ceb5387b6cee7dfecc19b37cea96be6c035b</Checksum>
+        <Checksum type="spamsum">3:2VaOO/sObzTl//l:pOOEO5//l</Checksum>
+        <Checksum type="fletcher16">9986</Checksum>
+        <Checksum type="fletcher32">45540284</Checksum>
+      </Checksums>
+    </TOC>
+    <Track>
+      <Image format="BINARY">Image.iso</Image>
+      <Size>113737728</Size>
+      <Sequence>
+        <TrackNumber>1</TrackNumber>
+        <Session>1</Session>
+      </Sequence>
+      <StartSector>0</StartSector>
+      <EndSector>55535</EndSector>
+      <Indexes>
+        <Index index="0">-150</Index>
+        <Index index="1">0</Index>
+      </Indexes>
+      <Flags>
+        <Quadraphonic>false</Quadraphonic>
+        <Data>true</Data>
+        <CopyPermitted>false</CopyPermitted>
+        <PreEmphasis>false</PreEmphasis>
+      </Flags>
+      <TrackType>mode1</TrackType>
+      <BytesPerSector>2048</BytesPerSector>
+      <Checksums>
+        <Checksum type="adler32">38a74537</Checksum>
+        <Checksum type="crc16">18af</Checksum>
+        <Checksum type="crc32">c6648f78</Checksum>
+        <Checksum type="crc64">0c8b451ac5f55f30</Checksum>
+        <Checksum type="md5">b8d194d3ff2d9b37f3ec363339ef6d11</Checksum>
+        <Checksum type="sha1">267488a3e06d36971a8706c5ca73bcbceed9834f</Checksum>
+        <Checksum type="sha256">68f4d5ac9a6e1b0751ecdab618a1c4bbb2d3034fd973469a5510c08e8ed79ca7</Checksum>
+        <Checksum type="sha384">8e2ab79e23f590913b31bad4be6a723e9b675932fd427afc1b8ba7f2fcc868f7b3b0bdf6b9d71382df7d668b3deea4a2</Checksum>
+        <Checksum type="sha512">f3c06fd016d5bee51687e018d41a68f4ecb98bb10b0bfbe4c9161bdac96bdac39808ebe87c3db9c7cb847c30b640c2ffcea4e2c05e03ca31926b40e6b9debcb5</Checksum>
+        <Checksum type="spamsum">1572864:FLUCgGf/rKucvpYpC0Z0htet6wYpfieqXq9XZFZBwRHUrVMrzBwA2E4f/AzVf:FLUCgi/rjMW6tNie/1LZBkHXngtf/Az</Checksum>
+        <Checksum type="fletcher16">46ac</Checksum>
+        <Checksum type="fletcher32">48fd2d7f</Checksum>
+      </Checksums>
+      <FileSystemInformation>
+        <Partition>
+          <Sequence>0</Sequence>
+          <Type>MODE1/2048</Type>
+          <StartSector>0</StartSector>
+          <EndSector>55535</EndSector>
+          <FileSystems>
+            <FileSystem>
+              <Type>ISO9660</Type>
+              <CreationDate>2006-11-19T14:19:00Z</CreationDate>
+              <ModificationDate>2006-11-19T14:19:00Z</ModificationDate>
+              <ClusterSize>2048</ClusterSize>
+              <Clusters>55386</Clusters>
+              <Bootable>false</Bootable>
+              <VolumeName>GAME</VolumeName>
+              <Dirty>false</Dirty>
+              <SystemIdentifier />
+              <VolumeSetIdentifier />
+              <PublisherIdentifier />
+              <DataPreparerIdentifier />
+              <ApplicationIdentifier>Nero Burning ROM</ApplicationIdentifier>
+            </FileSystem>
+          </FileSystems>
+        </Partition>
+      </FileSystemInformation>
+    </Track>
+    <DumpHardwareArray>
+      <DumpHardware>
+        <Manufacturer>ASUS</Manufacturer>
+        <Model>SDRW-08D2S-U</Model>
+        <Firmware>B912</Firmware>
+        <Serial>3734508360 416942501267</Serial>
+        <Extents>
+          <Extent>
+            <Start>0</Start>
+            <End>55535</End>
+          </Extent>
+        </Extents>
+        <Software>
+          <Name>Aaru</Name>
+          <Version>5.3.1.0</Version>
+          <OperatingSystem>Linux</OperatingSystem>
+        </Software>
+      </DumpHardware>
+    </DumpHardwareArray>
+  </OpticalDisc>
+</CICMMetadata>
