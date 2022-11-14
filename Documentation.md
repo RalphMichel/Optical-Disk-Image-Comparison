@@ -1,3 +1,0 @@
-# Optical Disk-Image Comparison
-
-- 

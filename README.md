@@ -51,3 +51,6 @@ Programme welche getestet wurden:
 - dvdisaster
 - guymager
 - aaru
+
+`aaru image compare Image1.iso Image2.iso`
+
