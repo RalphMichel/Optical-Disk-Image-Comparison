@@ -1,0 +1,4 @@
+$ sudo dd if=/dev/sr0 of=/media/ralph/test.iso
+222144+0 Datensätze ein
+222144+0 Datensätze aus
+113737728 Bytes (114 MB, 108 MiB) kopiert, 68.3508 s, 1.7 MB/s
