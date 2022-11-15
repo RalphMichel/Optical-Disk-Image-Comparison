@@ -1,0 +1,7 @@
+Hex-Vergleich
+Erstellt: 15.11.22 12:21:58
+
+Linke Datei: /Users/ralphmichel/Documents/GitHub/Optical-Disk-Image-Comparison/ddrescue/ddrescue_PitchnPutt.iso
+Rechte Datei: /Users/ralphmichel/Documents/GitHub/Optical-Disk-Image-Comparison/dvdisaster/dvdisaster_PitchnPutt.iso
+113430528 identische Bytes
+307200 linksseitige Byte-Singles

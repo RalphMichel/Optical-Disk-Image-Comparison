@@ -1,0 +1,20 @@
+./aaru image convert -c 32 --comments "Converted Aaru Image" --creator "Ralph Michel" --drive-manufacturer "ASUS" --drive-model "SDRW-08D2S-U" --drive-revision "B912" --drive-serial "KCD0AP011680"   --media-title "Pitch n Putt Game" -O "deduplicate=true,nocompress=false" -r /Users/ralphmichel/Documents/GitHub/Optical-Disk-Image-Comparison/aaru_aaruf/aaruf/Image.resume.xml -x /Users/ralphmichel/Documents/GitHub/Optical-Disk-Image-Comparison/aaru_aaruf/aaruf/Image.cicm.xml /Users/ralphmichel/Documents/GitHub/Optical-Disk-Image-Comparison/aaru_aaruf/aaruf/aaru_Image.aaruf /Users/ralphmichel/Documents/GitHub/Optical-Disk-Image-Comparison/aaru_aaruf/aaruf/dd_dump.iso
+
+Input image format identified by Aaru Format.
+Output image format: Raw Disk Image.
+Converting image will lose sector tag CdSectorSync, not continuing...
+If you don't care, use force option. This will skip all sector tags converting only user data.
+
+*****************
+
+
+./aaru image convert -c 32 --comments "Converted Aaru Image" --creator "Ralph Michel" --drive-manufacturer "ASUS" --drive-model "SDRW-08D2S-U" --drive-revision "B912" --drive-serial "KCD0AP011680"   --media-title "Pitch n Putt Game" -f -O "deduplicate=true,nocompress=false" -r /Users/ralphmichel/Documents/GitHub/Optical-Disk-Image-Comparison/aaru_aaruf/aaruf/Image.resume.xml -x /Users/ralphmichel/Documents/GitHub/Optical-Disk-Image-Comparison/aaru_aaruf/aaruf/Image.cicm.xml /Users/ralphmichel/Documents/GitHub/Optical-Disk-Image-Comparison/aaru_aaruf/aaruf/aaru_Image.aaruf /Users/ralphmichel/Documents/GitHub/Optical-Disk-Image-Comparison/aaru_aaruf/aaruf/dd_dump.iso
+
+Input image format identified by Aaru Format.
+Output image format: Raw Disk Image.
+Converting media tag CD_FullTOC
+55536 sectors to convert
+Converting sectors 55536 to 55536 in track 1 (100.00% done)
+Closing output image.
+
+Conversion done.
