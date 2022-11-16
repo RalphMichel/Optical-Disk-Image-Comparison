@@ -1,4 +1,8 @@
 # Optical-Disk-Image-Comparison
+
+
+[TOC]
+
 Im Rahmen des Moduls "Conservation of Software-based Art" wurden verschiedene Werkzeuge zum Erstellen von Disk-Images von optischen Datenträgern getestet. Im Vordergrund steht der Vergleich,  bereits in der Medienrestaurierung etablierten Werkzeuge wie "ddrescue", "dvdisaster" oder "guymager" mit dem relativ neuen Werkzeug "aaru" durchzuführen. 
 
 Für die Versuche wurde folgendes Laufwerk verwendet: **ASUS SDRW-08D2S-U, Rev: B912**,  Verbunden via USB. Aussagen, wie akkurat das Laufwerk die optischen Datenträger ausliest können keine gemacht werden. Jedoch wurden alle Programme mit demselben Laufwerk geprüft. Eine Übersicht über die Laufwerke, welche am akkurastesten sind finden sich im folgendem Forum: https://forum.dbpoweramp.com/showthread.php?43786-CD-Drive-Accuracy-2019
@@ -57,7 +61,7 @@ Mit aaru lassen sich sowohl ISO-Dateien als auch eine aaru eigenes Format "aaruf
 
 Weiter lassen sich mit aaru auch zwei Abbilder vergleichen, unabhängig davon, ob diese mit aar erstellt worden sind. Auch können mit aaru Abbilder zu ISO-Dateien konvertiert werden. 
 
-##### Verwendete Befehle:
+##### Verwendete Befehle
 
 Erzeugen der ISO-Datei (mit Debian GNU/Linux 11, aaru Version: 5.3.1+a175d01f)
 
@@ -83,7 +87,7 @@ Konvertierung der aaruf-Datei in eine ISO-Datei (mit macOS Ventura 13.0.1, aaru 
 
 dd (disk dump) ist ein einfaches aber sehr mächtiges Programm für bit-genaues Kopieren von Speichermedien. Mittels dd lassen sich ISO-Dateien erstellen.
 
-##### Verwendeter Befehl:
+##### Verwendeter Befehl
 
 Mit Debian GNU/Linux 11
 
@@ -99,7 +103,7 @@ Webseite: https://www.gnu.org/software/ddrescue/
 
 GNU ddrescue ist ein Programm zur Datenrettung von defekten Datenträgern wie Festplatten, Cdroms, USB-Sticks etc. Vorteil dieses Programmes ist, dass im Befehl die Anzahl Versuche beim Auslesen des Speichermediums angegeben werden können. Dabei werden die fehlerhaften Sektoren mehrfach ausgelesen, was eine höhere Wahrscheinlichkeit mitsichbringt, die defekten Daten wiederherzustellen. Mittels ddrescue lassen sich ISO-Dateien erzeugen. 
 
-##### Verwendeter Befehl:
+##### Verwendeter Befehl
 
 Mit Debian GNU/Linux 11, GNU ddrescue version 1.23
 
