@@ -1,4 +1,4 @@
-# Optical-Disk-Image-Comparison
+# Optical Disk-Image Comparison
 
 Im Rahmen des Moduls "Conservation of Software-based Art" wurden verschiedene Werkzeuge zum Erstellen von Disk-Images von optischen Datenträgern getestet. Im Vordergrund steht der Vergleich,  bereits in der Medienrestaurierung etablierten Werkzeuge wie "ddrescue", "dvdisaster" oder "guymager" mit dem relativ neuen Werkzeug "aaru" durchzuführen. 
 
@@ -178,16 +178,16 @@ Restliche = 113737728 byte
 
 #### HEX Vergleich
 
+**ddrescue vs. dvdisaster**
+
 Beyond Compare Version 4.4.4 (https://www.scootersoftware.com/)
 
+Neben dem Vergleich mit den Informationen aus den Infofiles wurden die Abbilder mit einem HEX-Editor verglichen. Wie zu erwarten, waren sind alle Abbilder zueinander identisch bis auf dasjenige von dvdisaster. Die oben berechneten Unterschied von 300kB enthalten jedoch keine Daten sondern sind bei allen Abbildern lediglich mit 0 gefüllt. Möglicherweise handelt es sich dabei um den leadout der CD.
 
+Exemplarisch für die identischen Abbilder, wurde der HEX-Vergleich zwischen dem ddrescue-Abbild und dem dvdisaster-Abbild als HTML-Datei exportiert und als "hex_compare_ddresuce_vs_dvdisaster.html" im Repository eingefügt. 
 
-**Hex Vergleich: ddrescue vs. dvdisaster**
-
-dvdisaster = 307200 bytes weniger. (entspricht 300kB)
+dvdisaster = 307200 bytes weniger als die restlichen Abbilder
 Restliche= 307200 bytes mit 0 gefüllt.
-
-
 
 
 
@@ -195,19 +195,30 @@ Restliche= 307200 bytes mit 0 gefüllt.
 
 Mit dem Programm aaru lassen sich wie eingangs erwähnt, zwei Abbilder miteinander vergleichen, unabhängig davon, ob diese mit aaru erstellt worden sind. Diese Vergleiche sind als Text-Dateien im Ordner aaru_image_compare zu finden. 
 
+Foldender Befehl wurde für die Vergleiche verwendet:
+
 `aaru image compare Image1.iso Image2.iso`
 
+Auch hier zeigt sich ein vergleichbares Bild, wie mit dem HEX Vergleich. Die exportieren Ergebnisse sind im Ordner "aaru_image_compare" zu finden. Bei diesem Vergleich wurden alle Sektoren der jeweiligen Abbilder zueinander verglichen. 
 
 
 
+#### **Fiwalk Vergleich** 
 
+**ddrescue vs. dvdisaster** 
+Mit Debian GNU/Linux 11, Fiwalk Version 4.10.1
 
+Um Informationen zum Inhalte der jeweiligen Abbilder zu erhalten wurde mit dem Programm Fiwalk ein XML-Export erstellt. Darin enthalten sind alle Dateien, welche im jeweiligen Abbild gespeichert sind. Zudem erstellt Fiwalk eine MD5- sowie eine SHA1-Prüfsumme für jede Datei.
 
-#### **Fiwalk Vergleich** **ddrescue vs. dvdisaster** 
+Hierbei wurde ebenfalls exemplarisch für die identischen Abbilder, das Abbild von ddrescue mit demjenigen von dvdisaster verglichen. Die exportierte HTML-Datei, welche die Unterschiede zeigt ist unter "fiwalk_compare_ddrescue_vs_dvdisaster.html" zu finden. 
 
-Inhalte identisch, bis auf Angaben zum verwendeten Programm und der Erstellungszeit.
+Inhaltlich sind die beiden Abbilder identisch. Die einzigen Unterschiede zeigen sich bei den Angaben zum verwendeten Programm mit dem das Abbild erstellt wurde sowie der Entstehungszeit des Abbildes. 
 
+## Fazit
 
+Der Vergleich zeigt zwei Haupterkenntnisse. Einerseits lassen sich im aaru-Format aaruf, komprimierte Abbilder in einem Open-Source Format erstellen. Diese Abbilder sind  beim Konvertieren in eine ISO-Datei, identisch mit denjenigen, welche mit den meisten anderen in der Medienrestaurierung verwendeten Programmen erzeugt wird.
+
+Andererseits hat der Vergleich aufgezeigt, dass mit dem Programm dvdisaster "nur" der Datentrack als Abbild gespeichert wird. Inhaltlich sind die Abbilder mit dvdisaster aber identisch mit denjenigen der anderen getesteten Programmen.
 
 
 
