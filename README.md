@@ -1,72 +1,76 @@
 # Optical Disk-Image Comparison
 
-Im Rahmen des Moduls "Conservation of Software-based Art" wurden verschiedene Werkzeuge zum Erstellen von Disk-Images von optischen Datenträgern getestet. Im Vordergrund steht der Vergleich,  bereits in der Medienrestaurierung etablierten Werkzeuge wie "ddrescue", "dvdisaster" oder "guymager" mit dem relativ neuen Werkzeug "aaru" durchzuführen. 
+As part of the module "Conservation of Software-based Art", various tools for creating disk images of optical media were tested. The main focus was to compare tools already established in media restoration like "ddrescue", "dvdisaster" or "guymager" with the relatively new tool "aaru". 
 
-Für die Versuche wurde folgendes USB- Laufwerk verwendet: **ASUS SDRW-08D2S-U, Rev: B912**,  Aussagen, wie akkurat das Laufwerk die optischen Datenträger ausliest können keine gemacht werden. Jedoch wurden alle Programme mit demselben Laufwerk geprüft und die CD mehrmals mit demselben Programm ausgelesen. Die Ergebnisse innerhalb eines Programmes waren immer identisch. Eine Übersicht über die Laufwerke, welche am akkuratesten sind, finden sich im folgendem Forum: https://forum.dbpoweramp.com/showthread.php?43786-CD-Drive-Accuracy-2019
+The following USB drive was used for the tests: **ASUS SDRW-08D2S-U, Rev: B912**, statements how accurate the drive reads the optical media cannot be made. However, all programs were tested with the same drive and the CD was read several times with the same program. The results within a program were always identical. An overview of which drives are the most accurate can be found in the following forum: https://forum.dbpoweramp.com/showthread.php?43786-CD-Drive-Accuracy-2019.
 
-Als Test-CD wurde ein Computerspiel (Pitch n Putt) gewählt, da sich diese Art von CDs für ein Disk-Image anbieten. Dies aus dem Grund, weil die CD nicht nur Audio- und Videodaten enthält sondern auch Software, welche eine Vielzahl von unterschiedlichen Dateien enthält und diese jeweils in Abhängigkeit zu anderen Dateien  stehen. Anders sieht es bei reinen Audio-CDs aus. Dafür gibt es andere Programme, mit denen die Audio-Informationen besser und exakter ausgelesen werden können. Bspw. mit dem Programm "Exact Audio Copy" https://www.exactaudiocopy.de
+As a test CD a computer game (Pitch n Putt) was chosen, because this kind of CDs are suitable for a disk image. This for the reason, because the CD contains not only audio and video data but also software, which contains a multiplicity of different files and these in each case in dependence to other files stand. The situation is different for pure audio CDs. For this there are other programs, with which the audio information can be read better and more exactly. For example with the program "Exact Audio Copy" https://www.exactaudiocopy.de.
 
-Die Versuche wurden mit dem Betriebssystem: **Debian GNU/Linux 11** (bullseye), **Linux 5.10.0.19 (64-bit)** durchgeführt. 
+The tests were made with the operating system: **Debian GNU/Linux 11** (bullseye), **Linux 5.10.0.19 (64-bit)**. 
 
-## Arbeitsablauf
 
-### Informationen zum optischen Datenträger und zum Laufwerk
 
-Zunächst wurden Informationen zum optischen Datenträger sowie zum Laufwerk zusammengetragen. Diese Informationen finden sich in Text-Dateien im Ordern "Infofiles". 
+## Workflow
 
-Insgesamt wurden drei Info-Dateien mit den folgenden Programmen und Befehlen erstellt:
+### Information about the optical disk and the drive
 
-**cd-info** (Version: 2.1.0) (für weitere Infos: `cd-info -h`) 
-Zeig Informationen sowohl zum verwendeten Laufwerk als auch zum optischen Datenträger an. 
+First, information about the optical data carrier and the drive was collected. This information can be found in text files in the "Infofiles" folder. 
+
+A total of three info files were created with the following programs and commands:
+
+**cd-info** (Version: 2.1.0, for more info: `cd-info -h`)
+Show information about both the drive used and the optical disk. 
 
 `cd-info /dev/sr0`
 
-**cdrdao** (Version: 1.2.4) https://cdrdao.sourceforge.net/ 
+**cdrdao** (version: 1.2.4) https://cdrdao.sourceforge.net/ 
 
-Zeigt ebenfalls Informationen zum Laufwerk an, jedoch deutlicher weniger Informationen zum optischen Datenträger als dies bei `cd-info` der Fall ist.
+Also displays information about the drive, but much less information about the optical disk than cd-info.
 
 `cdrdao disk-info /dev/sr0`
 
-**disktype** (Version: 9-11 ) https://disktype.sourceforge.net/
+**disktype** (version: 9-11 ) https://disktype.sourceforge.net/
 
-Zeigt nur Informationen zum optischen Datenträger an, jedoch keine Mehrinformationen im Vergleich zu cd-info.
+Displays only information about the optical disk, but no additional information compared to cd-info.
 
 `disktype /dev/sr0`
 
-#### Auswertung
-
-Wie bereits oben erwähnt wurde das Laufwerk als ASUS SDRW-08D2S-U, Rev: B912 erkannt. 
-Auf der CD befindet sich **1 Track** im Dateisystem **ISO9660**. Die Grösse beträgt gemäss disktype 108.2 MiB (113430528 bytes).
 
 
+#### Evaluation
 
-### Vergleich verschiedener Programme zum Erstellen eines Disk-Images, eines optischen Datenträgers
+As mentioned above, the drive was recognized as ASUS SDRW-08D2S-U, Rev: B912. 
+On the CD there is **1 track** in the file system **ISO9660**. The size is 108.2 MiB (113430528 bytes) according to disktype.
 
-Verglichen wurde folgende Programme, welche alle unter Linux funktionieren: aaru, dd, ddrescue, dvdisaster und guymager. Nachfolgende wird auf jedes Programm hinsichtlich Funktionsumfang sowie Vor- und Nachteile kurz eingegangen.
+
+
+### Comparison of different programs for creating a disk-image of an optical disk.
+
+The following programs were compared, all of which work under Linux: aaru, dd, ddrescue, dvdisaster and guymager. In the following, each program is briefly described in terms of its functionality and advantages and disadvantages.
 
 #### aaru
 
-Webseite: https://www.aaru.app/#/
+Website: https://www.aaru.app/#/
 
-Mit aaru lassen sich sowohl ISO-Dateien als auch eine aaru eigenes Format "aaruf" erzeugen. Vorteil von aaru ist, dass sehr viele Speichermedien ausgelesen werden können. Zudem können mit dem aaruf-Format Abbilder komprimiert gespeichert werden, was im Falle von guymager bspw. nur mit dem proprietären Format Advanced Forensic Format (AFF) möglich ist. aaru erstellt eine Log-Datei in der viele nützliche Metadaten, wie Informationen zum verwendeten Laufwerk, Programminformationen und den Erstellungsprozesses des Abbildes enthalten sind. 
+With aaru it is possible to create ISO files as well as aaru's own format "aaruf". Advantage of aaru is that very many storage media can be read. In addition with the aaruf format images can be stored compressed, which is possible in the case of guymager for example only with the proprietary format Advanced Forensic format (AFF). aaru creates a log file in that many useful metadatas, like information to the used drive, program information and the creation process of the image are contained. 
 
-Weiter lassen sich mit aaru auch zwei Abbilder vergleichen, unabhängig davon, ob diese mit aaru erstellt worden sind. Auch können mit aaru, Abbilder zu ISO-Dateien konvertiert werden. 
+Furthermore, aaru can also be used to compare two images, regardless of whether they were created with aaru. Also, with aaru, images can be converted to ISO files. 
 
-##### Verwendete Befehle
+##### Commands used
 
-Erzeugen der ISO-Datei (mit Debian GNU/Linux 11, aaru Version: 5.3.1+a175d01f)
+Creating the ISO file (with Debian GNU/Linux 11, aaru version: 5.3.1+a175d01f)
 
 ```bash
 /usr/share/aaru/aaru.dll media dump /dev/sr0 Image.iso -f
 ```
 
-Erzeugen der aaruf-Datei (mit Debian GNU/Linux 11, aaru Version: 5.3.1+a175d01f)
+Creating the aaruf file (with Debian GNU/Linux 11, aaru version: 5.3.1+a175d01f)
 
 ```bash
 /usr/share/aaru/aaru.dll media dump /dev/sr0 Image.aaruf
 ```
 
-Konvertierung der aaruf-Datei in eine ISO-Datei (mit macOS Ventura 13.0.1, aaru Version: 5.3.1)
+Conversion of aaruf file to ISO file (with macOS Ventura 13.0.1, aaru version: 5.3.1)
 
 ```bash
 ./aaru image convert -c 32 --comments "Converted Aaru Image" --creator "Ralph Michel" --drive-manufacturer "ASUS" --drive-model "SDRW-08D2S-U" --drive-revision "B912" --drive-serial "KCD0AP011680"   --media-title "Pitch n Putt Game" -f -O "deduplicate=true,nocompress=false" -r Image.resume.xml -x Image.cicm.xml aaru_Image.aaruf dd_dump.iso
@@ -78,11 +82,11 @@ Konvertierung der aaruf-Datei in eine ISO-Datei (mit macOS Ventura 13.0.1, aaru 
 
 Debian mangpage: https://manpages.debian.org/testing/manpages-de/dd.1.de.html
 
-dd (disk dump) ist ein einfaches aber sehr mächtiges Programm für bit-genaues Kopieren von Speichermedien. Mittels dd lassen sich ISO-Dateien erstellen.
+dd (disk dump) is a simple but very powerful program for bit-precise copying of storage media. With dd you can create ISO files.
 
-##### Verwendeter Befehl
+##### Used command
 
-Mit Debian GNU/Linux 11, dd Version: 4.10.0-1
+With Debian GNU/Linux 11, dd version: 4.10.0-1
 
 ```bash
 sudo dd if=/dev/sr0 of=/media/ralph/test.iso
@@ -92,13 +96,13 @@ sudo dd if=/dev/sr0 of=/media/ralph/test.iso
 
 #### GNU ddrescue
 
-Webseite: https://www.gnu.org/software/ddrescue/
+Website: https://www.gnu.org/software/ddrescue/
 
-GNU ddrescue ist ein Programm zur Datenrettung von defekten Datenträgern wie Festplatten, CD-ROMS, USB-Sticks etc. Vorteil dieses Programmes ist, dass im Befehl die Anzahl Versuche beim Auslesen des Speichermediums angegeben werden können. Dabei werden die fehlerhaften Sektoren mehrfach ausgelesen, was eine höhere Wahrscheinlichkeit mitsichbringt, die defekten Daten wiederherzustellen. Mittels ddrescue lassen sich ISO-Dateien erzeugen. 
+GNU ddrescue is a program for data recovery from defective storage media such as hard disks, CD-ROMS, USB sticks, etc. The advantage of this program is that the number of attempts to read the storage medium can be specified in the command. The defective sectors are read out several times, which means a higher probability of recovering the defective data. ISO files can be created using ddrescue. 
 
-##### Verwendeter Befehl
+##### Used command
 
-Mit Debian GNU/Linux 11, GNU ddrescue version 1.23
+With Debian GNU/Linux 11, GNU ddrescue version 1.23
 
 ```bash
 ddrescue -v -r 5 /dev/sr0 /home/ralph/Dokumente/Modul_Disk_Imaging/FOLLOW_UP/ASUS/ddrescue/ddrescue_PitchnPutt.iso /home/ralph/Dokumente/Modul_Disk_Imaging/FOLLOW_UP/ASUS/ddrescue/ddrescue_mapfile_PitchnPutt.txt
@@ -108,54 +112,54 @@ ddrescue -v -r 5 /dev/sr0 /home/ralph/Dokumente/Modul_Disk_Imaging/FOLLOW_UP/ASU
 
 #### dvdisaster
 
-Webseite: https://dvdisaster.jcea.es/
+Website: https://dvdisaster.jcea.es/
 
-dvdisaster ist ein Programm, um optische Datenträger auszulesen. Vorteil dieses Programmes ist die grafische Benutzeroberfläche, welche einerseits die Lesegeschwindigkeit des Laufwerkes anzeigt und somit Rückschlüsse über die Qualität des Laufwerkes machen lassen. Andererseits wird eine Fehlerkorrektur-Datei (Error Correction Code, ECC) erstellt. Mit deren Hilfe lassen sich verlorene Daten aufgrund fehlerhafter Sektoren auf dem Datenträger wieder rekonstruieren. Mit dvdisaster lassen sich ISO-Dateien erzeugen.
+dvdisaster is a program to read optical media. The advantage of this program is the graphical user interface, which on the one hand shows the reading speed of the drive and thus allows conclusions to be drawn about the quality of the drive. On the other hand, an error correction code (ECC) file is created. With the help of this file, lost data due to bad sectors on the medium can be reconstructed. ISO files can be created with dvdisaster.
 
-Mit Debian GNU/Linux 11, dvdisater version 0.79.5-10
+With Debian GNU/Linux 11, dvdisater version 0.79.5-10
 
 
 
 #### Guymager
 
-Webseite: https://guymager.sourceforge.io/
+Website: https://guymager.sourceforge.io/
 
-Guymager ist ein Programm, welches in der Forensik zum Einsatz kommt und aus unterschiedlichen Speichermedien, Abbilder erzeugt. Dabei können sowohl dd-Datein (Raw-Image Datei vergleichbar mit einer ISO-Datei) erzeugen, als auch komprimiert Abbilder im proprietären Format Advanced Forensic Format (AFF), welches in der Forensik verbreitet ist. Guymager hat eine eingebaute Prüfsummenfunktion mit der es möglich ist, das Abbild auf dessen Integrität hin zu überprüfen. 
+Guymager is a program that is used in forensics and creates images from different storage media. It can create both dd files (raw image file comparable to an ISO file), as well as compressed images in the proprietary format Advanced Forensic Format (AFF), which is widely used in forensics. Guymager has a built-in checksum function that makes it possible to verify the integrity of the image. 
 
-Mit Debian GNU/Linux 11, Guymager version 0.8.12-1 
+With Debian GNU/Linux 11, Guymager version 0.8.12-1 
 
 
 
-### Ergebnisse
+### Results
 
-Die nachfolgende Tabelle liefert eine Übersicht, über die erstellen Abbilder, deren MD5-Prüfsumme sowie deren Dateigrösse und Anzahl der Sektoren. Zum Einen fällt auf, dass die aaruf-Datei kleiner ist alle die restlichen Abbilder. Dies hat damit zu tun, dass es sich beim aaruf-Format, wie oben beschrieben, um ein komprimiertes Abbild-Format handelt. 
+The following table provides an overview of the images created, their MD5 checksums, and their file size and number of sectors. Firstly, it is noticeable that the aaruf file is smaller than the rest of the images. This is due to the fact that the aaruf format is a compressed image format, as described above. 
 
-Andererseits fällt auf, dass alle Abbilder hinsichtlich deren Prüfsumme und Dateigrösse identisch sind, bis auf das Abbild, welches mit dem Programm dvdisaster erstellt wurde. Diese Abbild ist kleiner und hat somit auch weniger Sektoren und dementsprechend eine andere Prüfsumme. 
+On the other hand, all images are identical with respect to their checksum and file size, except for the image created with the dvdisaster program. This image is smaller and therefore has fewer sectors and a different checksum. 
 
-| Programm         | Dateiname                 | MD5-Prüfsumme                    | Grösse (bytes) | Sektoren |
-| ---------------- | ------------------------- | -------------------------------- | -------------- | -------- |
-| aaru (aaruf)     | aaru_Image.aaruf          | 2411f4c1533e28e37418582deba34af5 | 109’301’388    | 55536    |
-| aaru (iso)       | aaru_Image.iso            | b8d194d3ff2d9b37f3ec363339ef6d11 | 113’737’728    | 55536    |
-| aaru (conv. iso) | dd_dump.iso               | b8d194d3ff2d9b37f3ec363339ef6d11 | 113’737’728    | 55536    |
-| dd               | dd_PitchnPutt.iso         | b8d194d3ff2d9b37f3ec363339ef6d11 | 113’737’728    | 55536    |
-| ddrescue         | ddrescue_PitchnPutt.iso   | b8d194d3ff2d9b37f3ec363339ef6d11 | 113’737’728    | 55536    |
-| dvdisaster       | dvdisaster_PitchnPutt.iso | dba625775ae7e24cbedef278164787f9 | 113’430’528    | 55386    |
-| guymager         | guymager_PitchnPutt.dd    | b8d194d3ff2d9b37f3ec363339ef6d11 | 113’737’728    | 55536    |
+| Program          | Filename                  | MD5-Checksum                     | Size(bytes) | Sectors |
+| ---------------- | ------------------------- | -------------------------------- | ----------- | ------- |
+| aaru (aaruf)     | aaru_Image.aaruf          | 2411f4c1533e28e37418582deba34af5 | 109’301’388 | 55536   |
+| aaru (iso)       | aaru_Image.iso            | b8d194d3ff2d9b37f3ec363339ef6d11 | 113’737’728 | 55536   |
+| aaru (conv. iso) | dd_dump.iso               | b8d194d3ff2d9b37f3ec363339ef6d11 | 113’737’728 | 55536   |
+| dd               | dd_PitchnPutt.iso         | b8d194d3ff2d9b37f3ec363339ef6d11 | 113’737’728 | 55536   |
+| ddrescue         | ddrescue_PitchnPutt.iso   | b8d194d3ff2d9b37f3ec363339ef6d11 | 113’737’728 | 55536   |
+| dvdisaster       | dvdisaster_PitchnPutt.iso | dba625775ae7e24cbedef278164787f9 | 113’430’528 | 55386   |
+| guymager         | guymager_PitchnPutt.dd    | b8d194d3ff2d9b37f3ec363339ef6d11 | 113’737’728 | 55536   |
 
-#### Vergleich mit Infofiles
+#### Comparison with Infofiles
 
-Informationen zur Dateigrösse und den Anzahl der Sektoren liefert cd-info und disktype. cd-info besagt, dass die CD 55536 Sektoren sowie eine Dateigrösse von 108 MB hat. Weiter unten unter "CD Analysis Report" steht dann "55386 blocks" im ISO 9660 Dateisystem.
+Information about the file size and the number of sectors is provided by cd-info and disktype. cd-info says that the CD has 55536 sectors and a file size of 108 MB. Further down under "CD Analysis Report" it says "55386 blocks" in the ISO 9660 file system.
 
-disktype  ist bezüglich Dateigrösse genauer und besagt eine Grösse von 113737728 bytes für die CD. Im ISO 9660 Dateisystem beträgt die Dateigrösse 113430528 bytes und 55386 blocks.
+disktype is more exact concerning file size and says a size of 113737728 bytes for the CD. In the ISO 9660 file system the file size is 113430528 bytes and 55386 blocks.
 
-Verglichen mit der obigen Tabelle zeigt sich, dass dvdisaster, nur die im ISO 9960 vorliegenden Daten ausliest. Alle anderen Programme lesen den gesamten Track aus. Dies trifft ebenfalls für das komprimierte aaruf Format zu, wenn die aaruf-Datei in eine ISO-Datei konvertiert wird (siehe in Tabelle: aaru conv.iso).
+Compared to the table above it can be seen that dvdisaster, only reads the data present in ISO 9960. All other programs read the entire track. This is also true for the compressed aaruf format when the aaruf file is converted to an ISO file (see in table: aaru conv.iso).
 
-Der Unterschied beträgt 307200 bytes (entspricht 300kB)
+The difference is 307200 bytes (equivalent to 300kB)
 
-**Vergleich Sectors**
+**Comparison Sectors**
 
 dvdisaster = 55386
-Restliche = 55536
+remaining = 55536
 
 1 sector = 2048 bytes
 
@@ -165,60 +169,58 @@ Restliche = 55536
 
 
 
-**Vergleich Dateigrösse**
+**Comparison file size**
 
 dvdisaster = 113430528 byte
-Restliche = 113737728 byte
+remaining = 113737728 byte
 
 <u>113737728 - 113430528 = 307200</u>
 
 
 
-
-
-#### HEX Vergleich
+#### HEX Comparison
 
 **ddrescue vs. dvdisaster**
 
 Beyond Compare Version 4.4.4 (https://www.scootersoftware.com/)
 
-Neben dem Vergleich mit den Informationen aus den Infofiles wurden die Abbilder mit einem HEX-Editor verglichen. Wie zu erwarten, waren sind alle Abbilder zueinander identisch bis auf dasjenige von dvdisaster. Die oben berechneten Unterschied von 300kB enthalten jedoch keine Daten sondern sind bei allen Abbildern lediglich mit 0 gefüllt. Möglicherweise handelt es sich dabei um den leadout der CD.
+Besides the comparison with the information from the infofiles, the images were compared with a HEX editor. As expected, all images were identical to each other except for the one from dvdisaster. The difference of 300kB calculated above does not contain any data but is filled with 0 for all images. Possibly this is the leadout of the CD.
 
-Exemplarisch für die identischen Abbilder, wurde der HEX-Vergleich zwischen dem ddrescue-Abbild und dem dvdisaster-Abbild als HTML-Datei exportiert und als "hex_compare_ddresuce_vs_dvdisaster.html" im Repository eingefügt. 
+As an example for the identical images, the HEX comparison between the ddrescue image and the dvdisaster image was exported as an HTML file and added to the repository as "hex_compare_ddresuce_vs_dvdisaster.html". 
 
-dvdisaster = 307200 bytes weniger als die restlichen Abbilder
-Restliche= 307200 bytes mit 0 gefüllt.
-
-
-
-#### **Vergleich mit aaru compare**
-
-Mit dem Programm aaru lassen sich wie eingangs erwähnt, zwei Abbilder miteinander vergleichen, unabhängig davon, ob diese mit aaru erstellt worden sind. Diese Vergleiche sind als Text-Dateien im Ordner aaru_image_compare zu finden. 
-
-Foldender Befehl wurde für die Vergleiche verwendet:
-
-`aaru image compare Image1.iso Image2.iso`
-
-Auch hier zeigt sich ein vergleichbares Bild, wie mit dem HEX Vergleich. Die exportieren Ergebnisse sind im Ordner "aaru_image_compare" zu finden. Bei diesem Vergleich wurden alle Sektoren der jeweiligen Abbilder zueinander verglichen. 
+dvdisaster= 307200 bytes less than the remaining images
+Remaining= 307200 bytes filled with 0.
 
 
 
-#### **Fiwalk Vergleich** 
+#### **Comparison with aaru compare**
+
+With the program aaru, as mentioned at the beginning, two images can be compared with each other, regardless of whether they were created with aaru. These comparisons can be found as text files in the folder aaru_image_compare. 
+
+The following command was used for the comparisons:
+
+`aaru image compare Image1.iso Image2.iso`.
+
+Again, the picture is similar to the HEX comparison. The exported results can be found in the folder "aaru_image_compare". In this comparison all sectors of the respective images were compared to each other. 
+
+
+
+#### **Fiwalk comparison** 
 
 **ddrescue vs. dvdisaster** 
-Mit Debian GNU/Linux 11, Fiwalk Version 4.10.1
+With Debian GNU/Linux 11, Fiwalk version 4.10.1
 
-Um Informationen zum Inhalte der jeweiligen Abbilder zu erhalten wurde mit dem Programm Fiwalk ein XML-Export erstellt. Darin enthalten sind alle Dateien, welche im jeweiligen Abbild gespeichert sind. Zudem erstellt Fiwalk eine MD5- sowie eine SHA1-Prüfsumme für jede Datei.
+In order to get information about the content of the respective images, an XML export was created with the program Fiwalk. It contains all files, which are stored in the respective image. In addition, Fiwalk creates an MD5 and an SHA1 checksum for each file.
 
-Hierbei wurde ebenfalls exemplarisch für die identischen Abbilder, das Abbild von ddrescue mit demjenigen von dvdisaster verglichen. Die exportierte HTML-Datei, welche die Unterschiede zeigt ist unter "fiwalk_compare_ddrescue_vs_dvdisaster.html" zu finden. 
+The image of ddrescue was also compared with the image of dvdisaster as an example for the identical images. The exported HTML file showing the differences can be found under "fiwalk_compare_ddrescue_vs_dvdisaster.html". 
 
-Inhaltlich sind die beiden Abbilder identisch. Die einzigen Unterschiede zeigen sich bei den Angaben zum verwendeten Programm mit dem das Abbild erstellt wurde sowie der Entstehungszeit des Abbildes. 
+The content of the two images is identical. The only differences are the information about the program used to create the image and the time of creation of the image. 
 
-## Fazit
+## Conclusion
 
-Der Vergleich zeigt zwei Haupterkenntnisse. Einerseits lassen sich im aaru-Format aaruf, komprimierte Abbilder in einem Open-Source Format erstellen. Diese Abbilder sind  beim Konvertieren in eine ISO-Datei, identisch mit denjenigen, welche mit den meisten anderen in der Medienrestaurierung verwendeten Programmen erzeugt wird.
+The comparison shows two main findings. On the one hand, the aaru format can be used to create aaruf, compressed images in an open-source format. These images, when converted to an ISO file, are identical to those created by most other programs used in media restoration.
 
-Andererseits hat der Vergleich aufgezeigt, dass mit dem Programm dvdisaster "nur" der Datentrack als Abbild gespeichert wird. Inhaltlich sind die Abbilder mit dvdisaster aber identisch mit denjenigen der anderen getesteten Programmen.
+On the other hand, the comparison has shown that with the program dvdisaster "only" the data track is saved as an image. However, the contents of the images created with dvdisaster are identical to those of the other programs tested.
 
 
 
