@@ -1,6 +1,6 @@
 # Optical Disk-Image Comparison
 
-As part of the module "Conservation of Software-based Art", various tools for creating disk images of optical media were tested. The main focus was to compare tools already established in media restoration like dd, ddrescue, dvdisaster or guymager with the relatively new tool aaru. 
+As part of the module "Conservation of Software-based Art" at the Bern Academy of the Arts in October 2022, various tools for creating disk images of optical media were tested. The main focus was to compare tools already established in media restoration like dd, ddrescue, dvdisaster or guymager with the relatively new tool aaru. 
 
 The following USB drive was used for the tests: **ASUS SDRW-08D2S-U, Rev: B912**, statements how accurate the drive reads the optical media cannot be made. However, all programs were tested with the same drive and the CD was read several times with the same program. The results within a program were always identical. An overview of which drives are the most accurate can be found in the following forum: https://forum.dbpoweramp.com/showthread.php?43786-CD-Drive-Accuracy-2019.
 
