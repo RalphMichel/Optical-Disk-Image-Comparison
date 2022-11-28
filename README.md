@@ -218,6 +218,14 @@ The image of ddrescue was also compared with the image of dvdisaster as an examp
 
 The content of the two images is identical. The only differences are the information about the program used to create the image and the time of creation of the image. 
 
+
+
+#### aaru Info
+
+#### aaru Image extract
+
+
+
 ## Conclusion
 
 The comparison shows two main findings. On the one hand, the aaru format can be used to create aaruf, compressed images in an open-source format. These images, when converted to an ISO file, are identical to those created by most other programs used in media restoration.

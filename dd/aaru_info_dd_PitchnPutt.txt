@@ -1,0 +1,34 @@
+aaru 5.3.1
+Copyright © 2011-2022 Natalia Portillo
+
+Image format identified by Raw Disk Image (12345678-aaaa-bbbb-cccc-123456789000).
+
+Image information:
+Format: Raw disk image (sector by sector copy)
+Image without headers is 113737728 bytes long
+Contains a media of 55536 sectors with a maximum sector size of 2048 bytes (if all sectors are of the same size this would be 113737728 bytes)
+Created on 14.11.2022 14:45:31
+Last modified on 14.11.2022 14:41:47
+Contains a media of type CD and XML type OpticalDisc
+Has partitions
+Has sessions
+Media title: dd_PitchnPutt
+Contains 1 readable sector tags:
+CdTrackFlags 
+
+Image sessions:
+Session  First track  Last track  Start       End         
+=========================================================
+1        1            1           0           55535       
+
+Image tracks:
+Track  Type             Bps   Raw bps Subchannel  Pregap  Start       End         
+=================================================================================
+1      CdMode1          2048  2048    None        150     0           55535       
+
+Track indexes:
+Track  Index  Start       
+=======================
+1      0      -150        
+1      1      0           
+

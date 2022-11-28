@@ -1,0 +1,52 @@
+aaru 5.3.1
+Copyright © 2011-2022 Natalia Portillo
+
+Image format identified by Aaru Format (49360069-1784-4a2f-b723-0c844d610b0a).
+
+Image information:
+Format: Aaru version 1.0
+Was created with Aaru version 5.3
+Image without headers is 109299962 bytes long
+Contains a media of 55536 sectors with a maximum sector size of 2048 bytes (if all sectors are of the same size this would be 113737728 bytes)
+Created on 20.10.2022 12:44:01
+Last modified on 20.10.2022 12:45:55
+Contains a media of type CDROM and XML type OpticalDisc
+Has partitions
+Has sessions
+Contains 1 readable media tags:
+CD_FullTOC 
+Contains 9 readable sector tags:
+CdSectorSync CdSectorHeader CdSectorSubHeader CdSectorEdc CdSectorEccP CdSectorEccQ CdSectorEcc CdSectorSubchannel CdTrackFlags 
+
+CompactDisc Table of Contents contained in image:
+First complete session number: 1
+Last complete session number: 1
+Session 1
+First track number: 1 (Data track, recorded uninterrupted)
+Disc type: 0
+Last track number: 1 (Data track, recorded uninterrupted)
+Lead-out start position: 12:22:36
+Lead-out is data type
+Data track 1 starts at: 00:02:00 (Data track, recorded uninterrupted)
+
+Image sessions:
+Session  First track  Last track  Start       End         
+=========================================================
+1        1            1           0           55535       
+
+Image tracks:
+Track  Type             Bps   Raw bps Subchannel  Pregap  Start       End         
+=================================================================================
+1      CdMode1          2048  2352    Raw         150     0           55535       
+
+Track indexes:
+Track  Index  Start       
+=======================
+1      0      -150        
+1      1      0           
+
+Dump hardware information:
+Manufacturer  Model         Serial                   Software  Version  Operating system  Start    End      
+============================================================================================================
+ASUS          SDRW-08D2S-U  3734508360 416942501267  Aaru      5.3.1.0  Linux             0        55535    
+

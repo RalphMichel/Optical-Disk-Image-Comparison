@@ -1,0 +1,85 @@
+<menu>
+<title>Pitch n Putt</title>
+<link>www.idigicon.com</link>
+<link>www.times-ebsoftware.com</link>
+<link>www.skillsforsuccess.org.uk</link>
+
+<tab>
+  <name>Full Product</name>
+  <item>
+    <name>Pitch n Putt</name>
+    <desc>A fun to play golf game, allowing 20 players to compete against each other.</desc>
+    <boxshot>Full\Pitch n Putt\boxshot.jpg</boxshot>
+    <screenshot>Full\Pitch n Putt\ss1.jpg</screenshot>
+    <screenshot>Full\Pitch n Putt\ss2.jpg</screenshot>
+    <screenshot>Full\Pitch n Putt\ss3.jpg</screenshot>
+    <screenshot>Full\Pitch n Putt\ss4.jpg</screenshot>
+    <bullet>Custom tournament mode</bullet>
+    <bullet>Random course play</bullet>
+    <bullet>6 different characters to choose from</bullet>
+    <bullet>1 to 20 players game</bullet>
+    <exe>Full\Pitch n Putt\setup.exe</exe>
+    <exetext>INSTALL</exetext>
+  </item>
+</tab>
+<tab>
+  <name>Trial Products</name>
+  <item>
+    <name>Brickbuster (trial)</name>
+    <desc>Bringing back the true playability of the arcade genre, NA Ball packs a punch with its superior graphics and special effects!</desc>
+    <boxshot>Trial\Brickbuster\boxshot.jpg</boxshot>
+    <screenshot>Trial\Brickbuster\ss1.jpg</screenshot>
+    <screenshot>Trial\Brickbuster\ss2.jpg</screenshot>
+    <screenshot>Trial\Brickbuster\ss3.jpg</screenshot>
+    <screenshot>Trial\Brickbuster\ss4.jpg</screenshot>
+    <bullet>Superb 3D Graphics</bullet>
+    <bullet>Frantic Brick-Blasting Action</bullet>
+    <bullet>A Host of Bonuses and Traps</bullet>
+    <bullet>All Kinds of Bricks and Bumpers</bullet>
+    <exe>Trial\Brickbuster\setup.exe</exe>
+    <exetext>INSTALL</exetext>
+  </item>
+  <item>
+    <name>Removal Man (trial)</name>
+    <desc>Help Lord Bray move some of his belongings to a museum, but don't forget to find his parrot and watch out for those pesky ghosts!</desc>
+    <boxshot>Trial\Removal Man\boxshot.jpg</boxshot>
+    <screenshot>Trial\Removal Man\ss1.jpg</screenshot>
+    <screenshot>Trial\Removal Man\ss2.jpg</screenshot>
+    <screenshot>Trial\Removal Man\ss3.jpg</screenshot>
+    <screenshot>Trial\Removal Man\ss4.jpg</screenshot>
+    <bullet>A huge multi-level mansion to explore</bullet>
+    <bullet>Realtime 3D cartoon style</bullet>
+    <bullet>Unique characters</bullet>
+    <bullet>Console quality graphics and music</bullet>
+    <exe>Trial\Removal Man\setup.exe</exe>
+    <exetext>INSTALL</exetext>
+  </item>
+  <item>
+    <name>Word Yo (trial)</name>
+    <desc>You'll be lost for words at how fun this game is! Match letters up to find words and score points before your time runs out, in Word Yo!</desc>
+    <boxshot>Trial\Word Yo\boxshot.jpg</boxshot>
+    <screenshot>Trial\Word Yo\ss1.jpg</screenshot>
+    <screenshot>Trial\Word Yo\ss2.jpg</screenshot>
+    <screenshot>Trial\Word Yo\ss3.jpg</screenshot>
+    <screenshot>Trial\Word Yo\ss4.jpg</screenshot>
+    <bullet>Captivating Puzzle Play</bullet>
+    <bullet>Spell Words for Points</bullet>
+    <bullet>3 Game Types</bullet>
+    <bullet>3 Difficulty Modes</bullet>
+    <exe>Trial\Word Yo\setup.exe</exe>
+    <exetext>INSTALL</exetext>
+  </item>
+</tab>
+<tab>
+  <name>DirectX</name>
+  <item>
+    <name>DirectX 9.0c</name>
+    <desc>DirectX is needed to run many of today's games and other applications.</desc>
+    <desclong>DirectX is a group of technologies by Microsoft for rendering both 2D and 3D graphics on Windows platforms.\\It is important to have the latest version of DirectX, so that your computer is compatible with today's games and other applications.</desclong>
+    <boxshot>DirectX\boxshot.png</boxshot>
+    <image>DirectX\image.png</image>
+    <exe>DirectX\dxsetup.exe</exe>
+    <exetext>INSTALL</exetext>
+  </item>
+</tab>
+</menu>

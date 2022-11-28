@@ -1,0 +1,47 @@
+aaru 5.3.1
+Copyright © 2011-2022 Natalia Portillo
+
+Image format identified by Raw Disk Image (12345678-aaaa-bbbb-cccc-123456789000).
+
+Image information:
+Format: Raw disk image (sector by sector copy)
+Image without headers is 113737728 bytes long
+Contains a media of 55536 sectors with a maximum sector size of 2048 bytes (if all sectors are of the same size this would be 113737728 bytes)
+Created on 15.11.2022 10:49:00
+Last modified on 15.11.2022 10:49:04
+Contains a media of type CD and XML type OpticalDisc
+Has partitions
+Has sessions
+Media title: dd_dump
+Contains 1 readable media tags:
+CD_FullTOC 
+Contains 1 readable sector tags:
+CdTrackFlags 
+
+CompactDisc Table of Contents contained in image:
+First complete session number: 1
+Last complete session number: 1
+Session 1
+First track number: 1 (Data track, recorded uninterrupted)
+Disc type: 0
+Last track number: 1 (Data track, recorded uninterrupted)
+Lead-out start position: 12:22:36
+Lead-out is data type
+Data track 1 starts at: 00:02:00 (Data track, recorded uninterrupted)
+
+Image sessions:
+Session  First track  Last track  Start       End         
+=========================================================
+1        1            1           0           55535       
+
+Image tracks:
+Track  Type             Bps   Raw bps Subchannel  Pregap  Start       End         
+=================================================================================
+1      CdMode1          2048  2048    None        150     0           55535       
+
+Track indexes:
+Track  Index  Start       
+=======================
+1      0      -150        
+1      1      0           
+

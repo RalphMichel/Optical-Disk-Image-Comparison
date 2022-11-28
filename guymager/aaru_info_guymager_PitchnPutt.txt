@@ -1,0 +1,18 @@
+aaru 5.3.1
+Copyright © 2011-2022 Natalia Portillo
+
+Image format identified by Raw Disk Image (12345678-aaaa-bbbb-cccc-123456789000).
+
+Image information:
+Format: Raw disk image (sector by sector copy)
+Image without headers is 113737728 bytes long
+Contains a media of 222144 sectors with a maximum sector size of 512 bytes (if all sectors are of the same size this would be 113737728 bytes)
+Created on 21.10.2022 07:10:20
+Last modified on 20.10.2022 13:03:37
+Contains a media of type GENERIC_HDD and XML type BlockMedia
+Doesn't have partitions
+Doesn't have sessions
+Media title: guymager_PitchnPutt
+Media geometry: 220 cylinders, 16 heads, 63 sectors per track
+
+
